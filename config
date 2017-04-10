@@ -3,9 +3,7 @@
 #
 # Should you change your keyboard layout somewhen, delete
 # this file and re-run i3-config-wizard(1).
-#
-
-# i3 config file (v4)
+# 3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
@@ -174,18 +172,18 @@ bar {
         status_command i3status
 	position top
         status_command i3status
-        mode hide
         workspace_buttons yes
-        tray_output       none
+	
+        tray_output VGA1
 
         font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
         colors {
-        background #000000
-        statusline #ffffff
-	focused_workspace  #ffffff #285577
-	active_workspace   #ffffff #333333
-	inactive_workspace #888888 #222222
-	urgent_workspace   #ffffff #900000
+        background #4e4a47
+        statusline #ff4e00
+	focused_workspace  #ff4e00 #4e4a47
+	active_workspace   #ff4e00 #4e4a47
+	inactive_workspace #888888 #4e4a47
+	urgent_workspace   #ff4e00 #4e4a47
 	}
 }
 
